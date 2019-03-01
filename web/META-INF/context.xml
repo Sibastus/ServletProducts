@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+    <Resource
+            name="jdbc/local_library"
+            auth="Container"
+            description="DB Connection"
+            username="user"
+            password="root"
+            driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/local_product"
+            maxActive="10"
+            maxIdle="3"
+            maxWait="100"
+            factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+            type="javax.sql.DataSource" />
+
+
+</Context>
